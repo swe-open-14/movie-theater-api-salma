@@ -8,4 +8,6 @@ const User = db.define("users", {
 });
 
 //exports
-module.exports = User;
+module.exports = {
+    User
+};
